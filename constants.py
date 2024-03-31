@@ -1,0 +1,9 @@
+MY_LONGITUDE = 24.029716
+MY_LATITUDE = 49.839684
+
+PARAMETERS = {
+
+    "lat": MY_LATITUDE,
+    "lng": MY_LONGITUDE,
+    "apid": "ac7c80a1a17027a99300e20862f1a7ba"
+}
