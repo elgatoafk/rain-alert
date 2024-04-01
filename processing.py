@@ -10,8 +10,7 @@ def get_weather_forecast(parameters: tuple) -> dict:
 def will_rain(weather_data: list[dict]) -> bool:
 
     for one_stamp in weather_data:
-        print(one_stamp["weather"][0]["id"])
-        if one_stamp["weather"][0]["id"] <700:
+        if int(one_stamp["weather"][0]["id"]) <700:
             return True
     else:
         return False
